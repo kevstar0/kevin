@@ -1,0 +1,42 @@
+[debug] [2021-09-24T23:28:45.570Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T23:28:45.575Z] Command:       C:\node.exe C:\Users\kevin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-09-24T23:28:45.576Z] CLI Version:   9.18.0
+[debug] [2021-09-24T23:28:45.576Z] Platform:      win32
+[debug] [2021-09-24T23:28:45.576Z] Node Version:  v14.17.5
+[debug] [2021-09-24T23:28:45.578Z] Time:          Sat Sep 25 2021 01:28:45 GMT+0200 (Central Africa Time)
+[debug] [2021-09-24T23:28:45.578Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T23:28:45.704Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T23:28:45.704Z] > authorizing via signed-in user (kevinmanda92@gmail.com)
+[debug] [2021-09-24T23:28:45.704Z] [iam] checking project aqueous-encoder-301807 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-24T23:28:45.709Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-24T23:28:45.709Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-24T23:28:46.229Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 24 Sep 2021 23:28:45 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T23:28:46.360Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/aqueous-encoder-301807:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-09-24T23:28:48.285Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 24 Sep 2021 23:28:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1483","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T23:28:48.287Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/aqueous-encoder-301807/serviceAccounts/aqueous-encoder-301807@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2021-09-24T23:28:50.174Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 24 Sep 2021 23:28:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T23:28:50.177Z] > refreshing access token with scopes: []
+[debug] [2021-09-24T23:28:50.177Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-24T23:28:50.620Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 24 Sep 2021 23:28:50 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T23:28:50.737Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/aqueous-encoder-301807 [none]
+[debug] [2021-09-24T23:28:51.367Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/aqueous-encoder-301807 200
+[debug] [2021-09-24T23:28:51.368Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/aqueous-encoder-301807 {"projectId":"aqueous-encoder-301807","projectNumber":"1012545270359","displayName":"Kevstar","name":"projects/aqueous-encoder-301807","resources":{"hostingSite":"aqueous-encoder-301807","realtimeDatabaseInstance":"aqueous-encoder-301807-default-rtdb","storageBucket":"aqueous-encoder-301807.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'aqueous-encoder-301807'...
+[info] 
+[info] i  deploying firestore, functions, hosting 
+[debug] [2021-09-24T23:28:51.810Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:424:7)
+    at Config.path (C:\Users\kevin\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:115:45)
+    at getChildEnvironment (C:\Users\kevin\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:50:49)
+    at runTargetCommands (C:\Users\kevin\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:71:14)
+    at C:\Users\kevin\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:122:24
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
