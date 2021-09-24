@@ -1,0 +1,23 @@
+{
+  "name": "kevin",
+  "version": "1.0.0",
+  "description": "this repo primarily focuses on customer relation services for a smoother delivery of services and\r products worldwide by acting as a bridge to multiple gateways to ensure reliability and efficiency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevstar0/kevin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kevstar0/kevin/issues"
+  },
+  "homepage": "https://github.com/kevstar0/kevin#readme",
+  "dependencies": {
+    "firebase": "^9.0.2"
+  }
+}
