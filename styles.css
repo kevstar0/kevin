@@ -71,3 +71,7 @@ body {
   width: 600px;
   margin-left: 110px;
 }
+
+.os {
+  color: red;
+}
