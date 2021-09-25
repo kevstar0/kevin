@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/kevstar0/kevin/issues"
   },
-  "homepage": "https://github.com/kevstar0/kevin#readme",
+  "homepage": "https://kevstar0.github.io/kevin/Home.html",
   "dependencies": {
     "firebase": "^9.0.2"
   }

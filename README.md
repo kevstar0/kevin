@@ -9,4 +9,4 @@ in the last session
 -involved firebase, firestore,
 -added firebase cli
 -logged into firebase cli
--
+-added nav bar styled by CSS
