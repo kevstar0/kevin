@@ -22,14 +22,23 @@
     <center>
         <!---callback user image from previous account login session-->
         <h1 id="displayphoto">Welcome back <link></link></h1>
-        <p id="username"><link rel="script" href="./src/index.js"></p>
+        <p id="username"><link rel="script" href="./src/index.js">Anonymous@user.com</p>
         <br>
         
         <!---form submit-->
-        <form action="/action_page.php">
-        <input type="password" placeholder="Password"> <button><img src="./src/img/enter.png" alt="Enter" height="10" width="10"> Next</button>
+        <form id="loginf" action="index.js">
+        <input type="password" placeholder="Password" id="passwrd"> <button onclick="submit" value="passwrd"><img src="./src/img/enter.png" alt="Enter" height="10" width="10"> Next</button>
+        </form>
         </form><p>Not you?</p>
         <a href="./anony.html"><button>change profile</button></a>
+        <br>
+        <br>
+        <p>Searching for nearby devices...</p>
+        <br>
+        <br>
+        <img src="" alt="scanning" height="10" width="30">
+        <p>If you are not logged in automatically after 5 seconds,</p>
+        <p>check if your bluetooth is enabled on your device and refresh the page or manually input your password</p>
     </center>
 </body>
 </html>

@@ -72,6 +72,37 @@ body {
   margin-left: 110px;
 }
 
-.os {
-  color: red;
+.body {
+  background-image: url(./src/img/arctic_wolf.png);
+  background-size: 1700px;
+}
+
+.welcome {
+  color: blue;
+  text-shadow: cadetblue;
+}
+
+.sponsor {
+  color: purple;
+  font-family: segoe script;
+}
+
+.text {
+  color: aqua;
+}
+
+.tfix {
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.justify {
+  padding-left: 10px;
+  width: 1150px;
+}
+
+.regis {
+  padding-top: 30px;
+  width: 1000px;
+  padding-left: 20px;
 }
