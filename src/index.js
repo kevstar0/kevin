@@ -61,11 +61,3 @@ exports.makeUppercase = functions.firestore
     const uppercase = original.toUpperCase();
     return snap.ref.set({ uppercase }, { merge: true });
   });
-
-document.getElementById("passwrd").onsubmit = function () {
-  demo();
-};
-
-function demo() {
-  alert("Information captured successfully, redirecting to user profile");
-}

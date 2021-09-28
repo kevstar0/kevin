@@ -101,9 +101,75 @@ body {
   width: 1150px;
 }
 
+.anony-fix {
+}
+
 .regis {
+  color: aliceblue;
   padding-top: 30px;
   width: 1000px;
   padding-left: 20px;
   padding-bottom: 70px;
+}
+
+.cursor {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 1);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.7s ease-out;
+  margin: 2px 2px 0 0;
+  z-index: 1000;
+}
+
+.cursor_point {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.7s ease-out;
+  margin: 2px 2px 0 0;
+  z-index: 1000;
+}
+
+.cursor.active {
+  animation: cursorAnim 0.3;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes cursorAnim {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    transform: scale(2);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+  }
+}
+
+.login-lay {
+  background-image: url("./src/img/306459-black-and-white-wolf-wallpaper-top-free-black-and-white-wolf.jpg");
+  background-size: cover;
+}
+
+.login-center {
+  color: lightseagreen;
+}
+
+.regis-lay {
+  background-image: url("./src/img/Exoplanets-With-Nebulae-In-Background-2880x1620.jpg");
+  background-size: 1400px;
 }
