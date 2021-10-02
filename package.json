@@ -18,6 +18,9 @@
   },
   "homepage": "https://kevstar0.github.io/kevin/Home.html",
   "dependencies": {
-    "firebase": "^9.0.2"
+    "firebase": "^9.1.0"
+  },
+  "engines": {
+    "node": "14"
   }
 }
