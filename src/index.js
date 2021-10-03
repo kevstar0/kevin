@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-import { getFirestore } from "firebase/firebase-firestore";
+import { documentId, getFirestore } from "firebase/firebase-firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseApp = initializeApp({
@@ -98,3 +98,20 @@ exports.makeUppercase = functions.firestore
     // Setting an 'uppercase' field in Firestore document returns a Promise.
     return snap.ref.set({ uppercase }, { merge: true });
   });
+
+// [START auth_sign_in_custom_modular]
+import { getAuth, signInWithCustomToken } from "firebase/auth";
+
+const auth = getAuth();
+signInWithCustomToken(auth, token)
+  .then((userCredential) => {
+    // Signed in
+    const user = userCredential.user;
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // ...
+  });
+// [END auth_sign_in_custom_modular]

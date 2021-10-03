@@ -23,34 +23,37 @@
   <div class="regis">
 
     <center>
+      <form action="destination" method="get">
       <p>Please choose a username</p>
-      <input type="text" id="username" placeholder="Username" />
+      <input type="text" id="username" placeholder="Username" required/>
       <br>
       <br>
       <p>Please enter your name</p>
-      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="name" placeholder="Name" required/>
       <br>
       <p>Please enter your multipurpose email <a href="./FAQ.html"><img src="./src/img/help.png" alt="Help" height="20" width="20"></a> </p>
-      <input type="email" id="email" placeholder="Email" />
+      <input type="email" id="email" placeholder="Email" required/>
       <br>
       <br>
       <p>Please enter your whatsapp number</p>
-      <input type="phone" id="phone" placeholder="Phone number" />
+      <input type="phone" id="phone" placeholder="Phone number" required/>
       <br>
       <p>Please enter your ID number and it's expiry date</p>
-      <input type="number" id="" placeholder="123456789"><input type="week" id="">
+      <input type="number" id="" placeholder="123456789"><input type="week" id="" required>
       <br>
       <br>
       <p>Please choose a password and store it safely</p>
-      <input type="password" placeholder="Create a new password" />
+      <input type="password" placeholder="Create a new password" required/>
       <br>
       <br>
       <p>Please repeat the password you've entered above</p>
-      <input type="password" id="passwrd" placeholder="Repeat password">
+      <input type="password" id="passwrd" placeholder="Repeat password" required>
       <br>
       <br>
-      <p><input type="checkbox" id="agreement" width="10px">I have read and understood the <a href="./FAQ.html"> Terms of service</a>.</p>
-      <button>Sign Up</button>
+      <textarea id="" cols="30" rows="5" placeholder="Is there anything you would like to tell us?"></textarea>
+      <p><input type="checkbox" id="agreement" width="10px" required>I have read and understood the <a href="./FAQ.html"> Terms of service</a>.</p>
+      <button type="submit" value="Submit this Form" onclick="postMessage">Sign Up</button>
+    </form>
     </center>
   </div>
   </body>

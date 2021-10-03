@@ -101,9 +101,6 @@ body {
   width: 1150px;
 }
 
-.anony-fix {
-}
-
 .regis {
   color: aliceblue;
   padding-top: 30px;
@@ -171,5 +168,5 @@ body {
 
 .regis-lay {
   background-image: url("./src/img/Exoplanets-With-Nebulae-In-Background-2880x1620.jpg");
-  background-size: 1400px;
+  background-size: 1570px;
 }
