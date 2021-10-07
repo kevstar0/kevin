@@ -22,12 +22,15 @@ onAuthStateChanged(auth, (user) => {
     // User is signed in, see docs for a list of available properties
     // https://firebase.google.com/docs/reference/js/firebase.User
     const uid = user.uid;
-    // ...
+    // email verified
+    emailVerified: Boolean;
   } else {
     // User is signed out
     // ...
   }
 });
+
+setUserProperties(analytics, { favourite_username: "" });
 
 admin.initializeApp();
 const user = auth.currentUser;

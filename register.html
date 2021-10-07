@@ -23,7 +23,7 @@
   <div class="regis">
 
     <center>
-      <form action="destination" method="get">
+      <form action="./src/index.js" method="post" id="form">
       <p>Please choose a username</p>
       <input type="text" id="username" placeholder="Username" required/>
       <br>
@@ -50,7 +50,7 @@
       <input type="password" id="passwrd" placeholder="Repeat password" required>
       <br>
       <br>
-      <textarea id="" cols="30" rows="5" placeholder="Is there anything you would like to tell us?"></textarea>
+      <textarea id="bio" cols="30" rows="5" placeholder="(optional) Add a bio"></textarea>
       <p><input type="checkbox" id="agreement" width="10px" required>I have read and understood the <a href="./FAQ.html"> Terms of service</a>.</p>
       <button type="submit" value="Submit this Form" onclick="postMessage">Sign Up</button>
     </form>
