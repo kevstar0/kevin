@@ -4,37 +4,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alpha Page</title>
+    <link rel="stylesheet" href="./star.css" />
+    <title>Free Games</title>
   </head>
   <body>
-    <div>
-      <h1>Congrats!</h1>
-      <p>You managed to login</p>
-      <p>We have so many end-points for you to choose from</p>
-      <p>1 Account = billions of services</p>
+    <div class="sitetree"></div>
+    <div class="starbody">
+      <h1>Botswana top 10 games</h1>
+      <p>for all mobile and pc games</p>
+      <button type="button" onclick="atten()">CLICK ME FIRST!</button>
+
+      <script>
+        function atten() {
+          alert(
+            "This website is still under construction but it partially works"
+          );
+        }
+      </script>
+    </div>
+
+    <div class="games">
+      <h3>Call of Duty Mobile</h3>
+      <a href=""
+        ><img
+          src="../img/cod.png"
+          alt="Call of duty mobile"
+          width="155"
+          height="150" /></a
+      ><p><h4>minimum game specifications</h4><p>[PC] intel i3, 8Gb ram, 10GB storage</p>
+    <P>[Android] Android 5, 2Gb ram, 10Gb storage</P>
+  <p>[Iphone] IOS 11, 2Gb ram, 7Gb storage</p></p>
+      <button>
+        <a href="https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"><img
+          src="../img/playstore.png"
+          alt="google play"
+          width="30"
+          height="30"
+        />
+      </button></a>
+      <button onclick="clicker()">
+        <img
+          src="../img/appstore.png"
+          alt="Apple store"
+          width="40"
+          height="30"
+        />
+      </button>
+
+      <script>
+        function clicker() {
+          alert("Appstore not supported in Botswana");
+        }
+      </script>
+
+      <button>
+        <img
+          src="../img/steam.png"
+          alt="steam"
+          width="30"
+          height="30"
+          onclick="clickHandler()"
+        />
+      </button>
+
+      <script>
+        function clickHandler() {
+          alert("Unavailable on Steam");
+        }
+      </script>
+
+    <br />
+    <br />
+    <div class="second">
+      <h3>Player Unknown BattleGrounds</h3>
+      <a href=""
+        ><img src="../img/pubg.png" alt="pubg" width="150" height="150"
+      /></a>
       <br />
+      <button onclick="error()">
+        <img
+          src="../img/playstore.png"
+          alt="google play"
+          width="30"
+          height="30"
+        />
+      </button>
+      <button onclick="clicker()">
+        <img
+          src="../img/appstore.png"
+          alt="apple store"
+          width="40"
+          height="30"
+        />
+      </button>
+      <button onclick="paid()">
+        <img src="../img/steam.png" alt="steam" width="30" height="30" />
+      </button>
     </div>
-
-    <p>My subscription status: <span></span>code error 405</p>
-    <p></p>
-
-    <div class="subs">
-      <h3>Free plan</h3>
-      <h3>Student plan</h3>
-      <h3>Pro</h3>
-      <h3>Dev Portal</h3>
-    </div>
-    <br />
-    <br />
-    <center>
-      <h3>SSL Error occured</h3>
-      <p>
-        you used an insecure method to login, please log out and retry to login
-      </p>
-      <p>
-        <a href="../../Home.html"><button>logout!</button></a>
-      </p>
-      <iframe src="https://www.facebook.com/plugins/video.php?height=308&href=https%3A%2F%2Fwww.facebook.com%2Flatifa.pule%2Fvideos%2F451870939576310%2F&show_text=false&width=560&t=0" width="560" height="308" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-    </center>
   </body>
+  <script>
+    function paid() {
+      alert("This game is not free here but it is available")
+    }
+  </script>
+  <script>
+    function error() {
+      alert("coming soon")
+    }
+  </script>
 </html>
