@@ -4,7 +4,8 @@ body {
   text-align: center;
   width: 100%;
   font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  background-color: #ecf0f1;
+  background-image: url(./src/img/arctic_wolf.png);
+  background-size: 1700px;
 }
 #wrapper {
   margin: 0 auto;
@@ -12,18 +13,24 @@ body {
   text-align: center;
   width: 995px;
 }
+#wrapper a {
+  
+  text-decoration: none;
+  
+  
+}
 #menu_div {
   padding: 0px;
   margin: 0px;
   width: 180px;
   height: 100%;
-  background-color: #2e2e2e;
+  background-color: rgba(79, 61, 235, 0.2);
   position: fixed;
   top: 0px;
   left: 0px;
 }
 #menu_div li {
-  border-bottom: 1px solid #424242;
+  border-bottom: 1px solid grey;
   list-style-type: none;
   text-align: left;
 }
@@ -33,53 +40,25 @@ body {
   margin-bottom: 30px;
   padding: 0px;
   padding-left: 10px;
-  color: white;
+  color: rgba(0, 97, 100, 0.8);
   border-bottom: none;
   cursor: pointer;
 }
 #menu_div li a {
+  color: rgb(182, 21, 115);
   height: 50px;
   line-height: 50px;
   display: block;
-  color: silver;
   text-decoration: none;
   font-size: 18px;
   padding-left: 20px;
 }
 #menu_div li:hover a {
-  color: white;
-}
-#content {
-  width: 815px;
-  margin-left: 170px;
-  margin-top: 40px;
-  text-align: center;
-}
-#content h1 {
-  margin-top: 50px;
-  font-size: 45px;
-  color: #626567;
-}
-#content h1 p {
-  font-size: 18px;
-  width: 100%;
-  margin: 0px;
-  margin-top: 10px;
-}
-#content p {
-  color: #4d5656;
-  width: 600px;
-  margin-left: 110px;
-}
-
-.body {
-  background-image: url(./src/img/arctic_wolf.png);
-  background-size: 1700px;
+  color: yellow;
 }
 
 .welcome {
   color: blue;
-  text-shadow: cadetblue;
 }
 
 .sponsor {
@@ -91,6 +70,15 @@ body {
   color: aqua;
 }
 
+.text a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.text a:hover {
+  color: pink;
+}
+
 .tfix {
   flex-wrap: wrap;
   text-align: justify;
@@ -98,7 +86,9 @@ body {
 
 .justify {
   padding-left: 10px;
-  width: 1150px;
+  width: 1162px;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .regis {
@@ -142,6 +132,7 @@ body {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
+
 @keyframes cursorAnim {
   0% {
     transform: scale(1);
@@ -169,4 +160,20 @@ body {
 .regis-lay {
   background-image: url("./src/img/Exoplanets-With-Nebulae-In-Background-2880x1620.jpg");
   background-size: 1570px;
+}
+
+#dedicate {
+  width: 210px;
+  background-color: rgba(147, 166, 223, 0.4);
+}
+
+.stranger {
+  color: aqua;
+}
+
+.order {
+  color: yellow;
+  position: fixed;
+  width: 1375px; 
+  bottom: 0px;
 }
